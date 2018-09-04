@@ -1,0 +1,86 @@
+@font-face 
+{
+    font-family: 'airstreamregular';
+    src: url('font_airstream/Airstream-webfont.eot');
+    src: url('font_airstream/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font_airstream/Airstream-webfont.woff2') format('woff2'),
+         url('font_airstream/Airstream-webfont.woff') format('woff'),
+         url('font_airstream/Airstream-webfont.ttf') format('truetype'),
+         url('font_airstream/Airstream-webfont.svg#airstreamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media all and (max-width: 1024px)
+{
+	body
+	{
+		width: auto;
+		
+	}
+	#conteneur
+    {
+    	flex-direction: column;
+    }
+
+    .photocv
+    {
+    	width: 110px;
+    	align-self: flex-end;
+    	margin-left: 15px;
+    }
+}
+
+body
+{
+	background:url("light_pattern.jpg")fixed repeat center;
+	font-family: 'airstreamregular';
+	font-size: 20px
+}
+
+h5
+{text-align:center;}
+
+h2
+{
+	color:rgb(163,72,164);
+	display: flex;
+	align-items: left;
+}
+
+h1
+{
+	border: 5px double black;
+	text-align: center;
+}
+
+.tete
+{
+	display:flex;
+	justify-content: top;
+}
+a
+{
+	order:5;
+}
+
+#conteneur
+{
+	display:flex;
+	justify-content: center;
+	align-items: space-around;
+}
+
+
+.exp 
+{
+	order:2;
+}
+.comp
+{
+	order:3;
+} 
+.form
+{
+	order:4;
+}
